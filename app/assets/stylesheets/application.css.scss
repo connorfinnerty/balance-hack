@@ -16,3 +16,25 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  background: #B6E2EC;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.left-image {
+  vertical-align: bottom;
+  height: 100%;
+  align: center;
+}
+
+#bottom-grass {
+  color: #40BDA8;
+}

@@ -5,9 +5,11 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABoUkU1YlOTKGCHnb1VLPfPwclOFbZmko&sensor=false"></script>
+<script type="text/javascript" src="http://www.map-generator.org/map/iframejs/828ce0ba-c4c4-4c9c-acca-d1a6fec482c5?key=AIzaSyABoUkU1YlOTKGCHnb1VLPfPwclOFbZmko&width=1400px&height=400px"></script>
 </head>
 <body>
-  <%= render 'navbar' %>
+  <%# render 'navbar' %>
   <div class="container-fluid">
     <%= yield %>
   </div>
